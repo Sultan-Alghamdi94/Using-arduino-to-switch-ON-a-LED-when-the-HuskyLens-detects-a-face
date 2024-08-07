@@ -13,18 +13,18 @@ The HuskyLens is an advanced AI vision sensor capable of recognizing faces. When
 
 ## Tools and Components Needed:
 
-### Arduino Board: Acts as the central processing unit for the project.
-### HuskyLens: The AI vision sensor that detects faces.
-### Connecting Wires: Facilitates connections between the components.
-### Power Supply: Powers both the Arduino and HuskyLens.
+ Arduino Board: Acts as the central processing unit for the project.
+ HuskyLens: The AI vision sensor that detects faces.
+ Connecting Wires: Facilitates connections between the components.
+ Power Supply: Powers both the Arduino and HuskyLens.
 
 Please ensure you have the appropriate libraries installed on your Arduino IDE for the HuskyLens, and the connections are made according to the HuskyLens documentation. Once everything is set up, you’ll need to upload the code to the Arduino to handle the face detection signal from the HuskyLens and turn on the LED accordingly.
 
 ## Pins Needed:
 
-### Arduino Digital Pin (Output): A pin like D13 can be used to control the LED.
-### Ground (GND) Pin: The LED’s negative leg will connect to the GND pin on the Arduino.
-### HuskyLens Communication Pins: These will be used for data exchange between the HuskyLens and the Arduino, typically via I2C or UART interfaces.
+ Arduino Digital Pin (Output): A pin like D13 can be used to control the LED.
+ Ground (GND) Pin: The LED’s negative leg will connect to the GND pin on the Arduino.
+ HuskyLens Communication Pins: These will be used for data exchange between the HuskyLens and the Arduino, typically via I2C or UART interfaces.
 
 ![1](https://github.com/user-attachments/assets/e79d281a-a68b-4808-8609-284f4ecc3519)
 
